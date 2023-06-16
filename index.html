@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <nav class="navbar navbar-expand-lg">
+    <img src="Nics-removebg-preview.png" alt="nics" width="50" height="50">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+      aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Lançamentos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Produtos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Semi Jóias</a>
+            <a class="dropdown-item" href="#">Roupas</a>
+            <a class="dropdown-item" href="#">Acessórios</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Sobre</a>
+          </div>
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </nav>
+
+  <!--Carousel-->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="carrosel1.png" alt="Primeiro Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="carrossel2.png" alt="Segundo Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="carrossel3.png" alt="Terceiro Slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <!--Card-->
+
+  <div class="card-deck">
+    <div class="grow1">
+      <img class="card-img-top" src="foto1.png" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h5 class="card-title">Anel Ouro Amarelo</h5>
+        <p class="card-text1">R$119,90</p>
+        <p class="card-text"><small class="text-muted">2x de R$59,90</small></p>
+      </div>
+    </div>
+    <div class="grow2">
+      <img class="card-img-top" src="foto2.png" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h5 class="card-title">Brinco Ouro Amarelo</h5>
+        <p class="card-text1">R$89,90</p>
+        <p class="card-text"><small class="text-muted">2x de R$44,90</small></p>
+      </div>
+    </div>
+    <div class="grow3">
+      <img class="card-img-top" src="foto3.png" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h5 class="card-title">Conjunto Colares</h5>
+        <p class="card-text1">R$249,59</p>
+        <p class="card-text"><small class="text-muted">4x de R$62,39</small></p>
+      </div>
+    </div>
+  </div>
+
+  <!--Fieldset-->
+  <div class="fieldset">
+    <fieldset>
+      <img src="Suéter.png" alt="sueter" width="300" height="300">
+
+
+      <!--Card 2-->
+
+      <div class="card-deck2">
+        <div class="grow1-1">
+          <img class="card-img-top" src="3.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Suéter Off White</h5>
+            <p class="card-text1">R$149,90</p>
+            <p class="card-text"><small class="text-muted">2x de R$74,99</small></p>
+          </div>
+        </div>
+        <div class="grow2-1">
+          <img class="card-img-top" src="4.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Cardigan Feminino</h5>
+            <p class="card-text1">R$139,90</p>
+            <p class="card-text"><small class="text-muted">2x de R$69,99</small></p>
+          </div>
+        </div>
+        <div class="grow3-1">
+          <img class="card-img-top" src="5.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Conjunto de linho <br>
+              Tons Terrosos
+            </h5>
+            <p class="card-text1">R$215,59</p>
+            <p class="card-text"><small class="text-muted">4x de R$53,89</small></p>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!--Nova Coleção-->
+  <div class="colecao">
+    <fieldset>
+      <img src="Coleção.png" alt="coleção" width="1263" height="350">
+      
+    </fieldset>
+  </div>
+
+
+
+
+</body>
+
+</html>

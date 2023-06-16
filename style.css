@@ -1,0 +1,127 @@
+.navbar{
+    background-color: rgb(212, 192, 166);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+a{
+    color:rgb(106, 46, 3);
+}
+
+.btn{
+    background-color: rgb(255, 249, 240);
+    color:rgb(106, 46, 3);
+    border-color: rgb(106, 46, 3);
+}
+
+.btn:hover {
+    background-color: rgb(106, 46, 3);
+    color: rgb(255, 249, 240);
+    border-color: rgb(255, 249, 240);
+}
+
+.nav-link:hover{
+    color:rgb(156, 115, 86);
+    font-size: 18px;
+    transition-duration: 1s;
+}
+
+.card-deck{
+    width: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.grow1 { 
+    transition: all .3s ease-in-out; 
+    margin-left: 12em;
+}
+    
+.grow1:hover { 
+    transform: scale(1.1);
+    
+}
+
+.grow2 { 
+    transition: all .3s ease-in-out; 
+    margin-left: 42%;
+    position: absolute;
+    top: 123%;
+    width: 200px;
+}
+        
+.grow2:hover { 
+    transform: scale(1.1); 
+    
+}
+
+.grow3 { 
+    transition: all .3s ease-in-out;
+    margin-left: 70%;
+    position: absolute;
+    top: 123%;
+    width: 200px;
+}
+            
+.grow3:hover { 
+    transform: scale(1.1); 
+}
+
+.card-deck-1{
+    width: 400px;
+    
+}
+
+.grow1-1 { 
+    transition: all .3s ease-in-out; 
+    margin-left: 10%;
+    top: 250%;
+    width: 200px;
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+    
+.grow1-1:hover { 
+    transform: scale(1.1);
+    
+}
+
+.grow2-1 { 
+    transition: all .3s ease-in-out; 
+    margin-left: 42%;
+    position: absolute;
+    top: 250%;
+    width: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+        
+.grow2-1:hover { 
+    transform: scale(1.1); 
+    
+}
+
+.grow3-1 { 
+    transition: all .3s ease-in-out;
+    margin-left: 70%;
+    position: absolute;
+    top: 250%;
+    width: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+            
+.grow3-1:hover { 
+    transform: scale(1.1); 
+}
+
+.fieldset{
+    text-align: center;
+    background-color: #fff9f0;
+}
+
+.colecao{
+    top: 500%;
+    
+}
